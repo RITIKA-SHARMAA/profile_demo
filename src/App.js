@@ -1,13 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import hello from './hello.png';
+//import homeBanner from '../images/S3.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={hello} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hiii hellooo !!
+          This is test portfolio site<br/>
+          And I'm going to deploy this site on Versel using github actions
         </p>
         <a
           className="App-link"
